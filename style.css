@@ -1,20 +1,49 @@
+
 table{
     border: 1px solid black;
     margin: 0 auto;
-    width: 50%;
+    width: 20%;
     text-align: center;
-    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
     margin-bottom: 50px;
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    box-shadow: 10px 10px 10px #999;
+    vertical-align: top;
+    
 }
 
 table thead{
-    background: yellow;
+    background: #FCB941;
 }
 
 table tr td{
-    font-size: 20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18;
 }
 
 .table-title{
     text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    background-color: #2CC990;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+.r{
+  flex-direction: row;
+  
 }
